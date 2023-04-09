@@ -1,3 +1,24 @@
 packages:
   - "apps/*"
   - "packages/*"
+
+dependenciesMeta:
+  '@my-monorepo/common':
+    built: true
+  'react-dom/server':
+    optional: true
+
+pnpmfile: 'pnpmfile.js'
+
+registries:
+  default: 'https://registry.npmjs.org/'
+
+npmPath: 'npm'
+
+link-workspace-packages: deep
+
+shared-workspace-shrinkwrap: true
+
+hooks:
+  readPackage:
+    - 'pnpmfile.js'
