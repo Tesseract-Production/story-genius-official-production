@@ -1,10 +1,10 @@
-# Turborepo starter
+# Story Genius - Alpha Production Repository
 
-This is an official pnpm starter turborepo.
+This is the official pnpm-based Vercel Turborepo Monorepo for the Story Genius platform.
 
 ## What's inside?
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+The project uses [pnpm](https://pnpm.io) as the primary package manager. It includes the following packages/apps:
 
 ### Apps and Packages
 

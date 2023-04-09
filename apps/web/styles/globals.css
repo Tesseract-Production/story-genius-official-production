@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .border-violet-300 {
+    --tw-border-opacity: 1;
+    border-color: rgba(183, 125, 255, var(--tw-border-opacity));
+  }
+}
