@@ -6,7 +6,8 @@
     "dev": "next dev --port 3005",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"No test needed\""
   },
   "dependencies": {
     "next": "^13.3.0",
