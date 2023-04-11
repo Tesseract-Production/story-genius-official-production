@@ -1,5 +1,5 @@
 {
-  "version": 0.01,
+  "version": 2,
   "name": "story-genius-official-production",
   "scope": "tesseract-developers",
   "github": {
@@ -9,11 +9,17 @@
   "builds": [
     {
       "src": "apps/docs/package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "outputDirectory": ".next"
+      }
     },
     {
       "src": "apps/web/package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "outputDirectory": ".next"
+      }
     }
   ],
   "build": {
