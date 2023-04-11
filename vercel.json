@@ -20,7 +20,7 @@
     "env": {
       "TURBO_TOKEN": "production"
     },
-    "command": "turbo run build --scope=apps/web --scope=apps/docs"
+    "command": "turbo run build"
   },
   "routes": [
     {
@@ -35,6 +35,6 @@
   "env": {
     "API_URL": "https://api.storygenius.app"
   },
-  "regions": ["sfo1", "lhr1"],
+  "regions": ["sfo1"],
   "alias": ["story-genius-preview.vercel.app"]
 }
