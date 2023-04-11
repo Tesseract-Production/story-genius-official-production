@@ -1,5 +1,7 @@
 # Story Genius - Alpha Production Repository
 
+# Updated Readme to try and solve the Vercel Deployment issue
+
 This is the official pnpm-based Vercel Turborepo Monorepo for the Story Genius platform.
 
 ## What's inside?
