@@ -15,11 +15,10 @@
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "prettier": "latest",
-    "turbo": "latest",
-    "next": "13.3.0"
+    "turbo": "latest"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.15.0"
   },
   "dependencies": {
     "next": "13.3.0"
