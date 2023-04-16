@@ -1,8 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/workspace.schema.json
-name: <story-genius-mlai-pipeline>
-location: <East US>
-display_name: Story Genius MLAI Pipeline & Dev Environment
-description: Primary workspace for testing production readiness and end-user functionality features
-tags:
-  purpose: machine-learning, ai
-  team: tesseract-management

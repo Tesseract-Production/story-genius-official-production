@@ -25,6 +25,7 @@ jobs:
           TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: tesseract-developers
           TURBO_REMOTE_ONLY: "true"
+          CHROMATIC_PROJECT_TOKEN: 9c0f05c88773
 
   build:
     needs: ci

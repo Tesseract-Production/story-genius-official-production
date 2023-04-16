@@ -7,11 +7,16 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        custom: '0 24px 32px rgba(0, 0, 0, 0.32)',
+      },
+    },
   },
   variants: {
     extend: {
       visibility: ['group-hover'],
+      boxShadow: ['hover'],
     },
   },
   plugins: [require('@tailwindcss/typography')],
